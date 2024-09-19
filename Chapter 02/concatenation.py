@@ -7,3 +7,5 @@ full_name = first_name + ' ' + last_name
 
 # Display the user's full name.
 print('Your full name is ' + full_name)
+
+type(first_name)

@@ -1,3 +1,4 @@
+
 # This program gets three test scores and displays
 # their average.  It congratulates the user if the
 # average is a high score.
