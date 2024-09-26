@@ -6,8 +6,8 @@
 print('Number\tSquare')
 print('--------------')
 
-# Print the numbers 1 through 10
+# Print the numbers 1 through 10 (upper limit not inclusive)
 # and their squares.
-for number in range(1, 11):
+for number in range(1, 11, 2):  # using a step of 2 to only print odd numbers
     square = number**2
     print(f'{number}\t{square}')

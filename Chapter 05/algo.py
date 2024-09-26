@@ -30,3 +30,15 @@ def is_empty(values):
         return False
     else:
         return True
+
+def age_squared(input):
+    sqrd_age = input**2
+    return sqrd_age
+
+try:
+    print("Please input your age: ")
+    x = int(input())
+    print(age_squared(x))
+except ValueError as e:
+    print(e)
+    print("Please make sure your input is an Integer!")
